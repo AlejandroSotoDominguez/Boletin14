@@ -26,7 +26,7 @@ public class Garaxe {
                 if(horas<=3){
                     precio=1.5;
                 }else{
-                    precio=horas-3*0.2;
+                    precio=1.5+horas*0.2;
                 }   
                 
                 JOptionPane.showMessageDialog(null, "PLAZAS DISPOÑIBLES"+"\n"+"Precio: "+precio);
